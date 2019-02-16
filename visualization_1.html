@@ -17,24 +17,21 @@
     <link rel="stylesheet" href="style.css">
 
    
-
 </head>   
-
-
-
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a style="text-decoration:none;" class="navbar-brand" href="./index.html"><span class="latitude">Latitude</a>
-                    
+                    <a class="navbar-brand" href="index.html"><span class="latitude">Latitude</a>
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <li class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                               Plots
                               <span class="caret"></span>
                             </button>
@@ -55,34 +52,33 @@
                 </ul>
             </div>
         </nav>
+       
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-8">
                         <div class="box">
-                            <div class="page-header">
-                                <h1 class="title">Summary: Latitude vs. X</h1>
+                            <div class="header">
+                                <h1 class="title">Max Temperature</h1>
                             </div>
-                            <div class="box">
-                                <img src="./Resources/assets/images/Fig1.png" alt="City Latitude vs. Max Temperature" height="280" width="280" align="left">
-                                <p class="category"> The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
-                                </p>
-                                <p class="category">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.
-                                </p>
+                            <div class="content">
+                               <img src="./Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="img-responsive">
+                               <p class="category">Latitude is the measurement of the distance of a location on the Earth from the equator. From the Latitude vs Temperature chart, we can tell latitude is one of the main factors affecting temperature. The cities located between latitude from -20 to 20 have the highest temperatures. The further away from the equator the city temperature is lower. The northern temperature ranges are greater than the southern ranges at corresponding latitudes. The relative difference in the northern and southern hemispheres is greatest around 60° latitude where the southern hemisphere has almost no land. In general, places at high latitudes are colder than places at low latitudes.
+                               </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4">
                         <div class="box">
-                            <div class="page-header">
+                            <div class="header">
                                 <h1 class="title">Visualizations</h1>
                             </div>
-                            <div class="box">
-                               <a href="./visualization_1.html"><img src="./Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
-                               <a href="./visualization_2.html"><img src="./Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
-                               <a href="./visualization_3.html"><img src="./Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
-                               <a href="./visualization_4.html"><img src="./Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                            <div class="content">
+                                <a href="./visualization_1.html"><img src="./Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="180" width="180"></a>
+                                <a href="./visualization_2.html"><img src="./Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="180" width="180"></a>
+                                <a href="./visualization_3.html"><img src="./Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="180" width="180"></a>
+                                <a href="./visualization_4.html"><img src="./Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="180" width="180"></a>
                             </div>
                         </div>
                     </div>
@@ -92,4 +88,4 @@
     </div>
 </body>
         
-</html>
+</html>                             
