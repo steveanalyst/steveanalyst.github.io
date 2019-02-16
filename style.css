@@ -24,6 +24,7 @@ body {
   margin-left: 0px;
   padding: 25px;
   background: white;
+  border:none;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -39,6 +40,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
 
 h1 {
   font-size: 35px;
+  color:#14C9D9;
+  font-family: serif;
 }
 h2 {
   font-size: 20px;
@@ -50,8 +53,8 @@ p{
 }
 
 
-.c-d{color:black;
-  font-size: 25px;
+.c-d{color:rgb(102, 100, 100);
+  font-size: 20px;
 }
 
 .latitude {
